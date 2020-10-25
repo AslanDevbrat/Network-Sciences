@@ -1,0 +1,17 @@
+<h1 style="background-color: aqua; border: 3px solid black;">Question: Consider an undirected (connected) tree of n vertices. Suppose that a particular vertex in the tr...</h1>
+<div class="ugc-base question-body-text">
+<div class=""><p><img alt="Consider an undirected (connected) tree of n vertices. Suppose that a particular vertex in the tree has degree k, so that its removal would divide the tree into k disjoint regions, and suppose that the sizes of those regions are n,, n2,n3, .nk. Show that the unormalized betweeness centrality x of the vertex is 2" aria-describedby="d8b" src="https://d2vlcm61l7u1fs.cloudfront.net/media%2F59f%2F59f85c5a-ed06-4f59-a603-8b4f5a36e9de%2Fphp2fgsXu.png" style="height:249px;width:1024px;"/></p>
+<div class="hidden" id="d8b">Consider an undirected (connected) tree of n vertices. Suppose that a particular vertex in the tree has degree k, so that its removal would divide the tree into k disjoint regions, and suppose that the sizes of those regions are n,, n2,n3, .nk. Show that the unormalized betweeness centrality x of the vertex is 2 </div></div>
+<span class="transcribed-text">Show transcribed image text</span> <span class="transcribed-image-text hidden">Consider an undirected (connected) tree of n vertices. Suppose that a particular vertex in the tree has degree k, so that its removal would divide the tree into k disjoint regions, and suppose that the sizes of those regions are n,, n2,n3, .nk. Show that the unormalized betweeness centrality x of the vertex is 2 </span>
+</div>
+<h1 style="background-color: aqua; border: 3px solid black;">Answer:</h1>
+<div class="answer-given-body ugc-base">
+<p>Betweenness Centrality of a node n is the ratio of the shortest
+paths between all other nodes, that pass through node n.</p>
+<p>This can be expressed as difference between number of shortest
+paths between any 2 vertices in the tree and the shortest path
+between any 2 vertices in the disjointed
+regions-n1,n2,n3,....nk</p>
+<p>= n*n - (n1*n1 + n2*n2 + n3*n3 +.... + nk*nk)</p>
+<p>= n^2 - Sigma(1,k) ni^2</p>
+</div>
